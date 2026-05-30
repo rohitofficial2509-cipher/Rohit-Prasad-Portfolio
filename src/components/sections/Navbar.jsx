@@ -15,6 +15,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("hero");
   const [scrolled, setScrolled] = useState(false);
+  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume.pdf`;
 
   useEffect(() => {
     const onScroll = () => {
@@ -65,7 +66,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:flex">
-          <a className="btn-secondary text-sm" href="/Rohit_Prasad_Resume.pdf" download>
+          <a className="btn-secondary text-sm" href={resumeUrl} download>
             <FiDownload aria-hidden="true" /> Resume
           </a>
         </div>
@@ -95,7 +96,7 @@ export default function Navbar() {
                 {label}
               </button>
             ))}
-            <a className="btn-primary mt-2" href="/Rohit_Prasad_Resume.pdf" download>
+            <a className="btn-primary mt-2" href={resumeUrl} download>
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>

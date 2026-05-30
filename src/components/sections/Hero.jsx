@@ -9,6 +9,9 @@ const metrics = [
 ];
 
 export default function Hero() {
+  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume.pdf`;
+  const profileImageUrl = `${import.meta.env.BASE_URL}rohit-prasad.png`;
+
   return (
     <section id="hero" className="min-h-[calc(100vh-80px)] pt-16 pb-16 flex items-center">
       <div className="section-shell grid lg:grid-cols-[1.08fr_0.92fr] gap-10 lg:gap-14 items-center">
@@ -30,7 +33,7 @@ export default function Hero() {
             <a className="btn-primary" href="#projects">
               View case work <FiArrowRight aria-hidden="true" />
             </a>
-            <a className="btn-secondary" href="/Rohit_Prasad_Resume.pdf" download>
+            <a className="btn-secondary" href={resumeUrl} download>
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>
@@ -60,7 +63,7 @@ export default function Hero() {
           <div className="grid gap-4">
             <div className="relative overflow-hidden rounded-lg border border-slate-700/70 bg-slate-900">
               <img
-                src="/rohit-prasad.png"
+                src={profileImageUrl}
                 alt="Rohit Prasad"
                 className="aspect-[4/4.55] w-full object-cover object-center"
               />
