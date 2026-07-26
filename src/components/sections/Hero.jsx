@@ -33,7 +33,7 @@ export default function Hero() {
             <a className="btn-primary" href="#projects">
               View case work <FiArrowRight aria-hidden="true" />
             </a>
-            <a className="btn-secondary" href={resumeUrl} download>
+            <a className="btn-secondary" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>

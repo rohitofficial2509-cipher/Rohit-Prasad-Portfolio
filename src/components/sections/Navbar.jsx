@@ -73,7 +73,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:flex">
-          <a className="btn-secondary text-sm" href={resumeUrl} download>
+          <a className="btn-secondary text-sm" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
             <FiDownload aria-hidden="true" /> Resume
           </a>
         </div>
@@ -103,7 +103,7 @@ export default function Navbar() {
                 {label}
               </button>
             ))}
-            <a className="btn-primary mt-2" href={resumeUrl} download>
+            <a className="btn-primary mt-2" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>
