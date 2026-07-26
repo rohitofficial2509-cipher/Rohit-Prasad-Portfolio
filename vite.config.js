@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1];
 const isUserPage = repositoryName?.endsWith(".github.io");
 const isVercel = Boolean(process.env.VERCEL);
-const base = "/Rohit-Prasad-Portfolio/"; // Fixed base for GitHub Pages project site
+const base = isVercel ? "/" : repositoryName && !isUserPage ? `/${repositoryName}/` : "/";
 
 // https://vite.dev/config/
 export default defineConfig({
