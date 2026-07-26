@@ -16,6 +16,7 @@ This portfolio presents my professional background, work experience, technical s
 - Real profile image and professional contact links
 - Sections for experience, skills, projects, education, certifications, and contact
 - GitHub Pages deployment workflow
+- Vercel-friendly build setup
 
 ## Tech Stack
 
@@ -26,6 +27,7 @@ This portfolio presents my professional background, work experience, technical s
 - React Icons
 - GitHub Actions
 - GitHub Pages
+- Vercel
 
 ## Local Development
 
@@ -54,9 +56,12 @@ npm run preview
 
 ## Deployment
 
-This repository deploys through GitHub Actions. On every push to `main`, the workflow builds the Vite app and publishes the `dist` output to the `gh-pages` branch.
+This repository supports two deployment targets:
 
-To enable the live site in GitHub:
+- GitHub Pages: on every push to `main`, GitHub Actions builds the Vite app and publishes the `dist` output to the `gh-pages` branch.
+- Vercel: connect the GitHub repository in Vercel and deploy from `main` with the Vite preset.
+
+To enable GitHub Pages:
 
 1. Open repository **Settings**
 2. Go to **Pages**
@@ -64,6 +69,21 @@ To enable the live site in GitHub:
 4. Select branch: `gh-pages`
 5. Select folder: `/ (root)`
 6. Save
+
+To enable Vercel:
+
+1. Open the Vercel dashboard
+2. Select **Add New -> Project**
+3. Import this GitHub repository
+4. Keep the framework preset as **Vite**
+5. Use `npm run build` as the build command
+6. Use `dist` as the output directory
+7. Deploy
+
+Notes:
+
+- `vite.config.js` switches the base path automatically for GitHub Pages and Vercel.
+- If you use a custom domain, update it separately in the GitHub Pages or Vercel project settings.
 
 ## Contact
 
