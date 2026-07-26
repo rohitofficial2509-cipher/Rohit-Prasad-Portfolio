@@ -1,6 +1,6 @@
 # Rohit Prasad Portfolio
 
-Personal portfolio website for **Rohit Prasad**, a Senior Data Analyst focused on data quality automation, healthcare analytics, Google Apps Script pipelines, and full-stack data tools.
+Personal portfolio website for **Rohit Prasad**, a Software Developer focused on AI-powered applications, full-stack development, automation, and backend systems.
 
 Live site: [rohitofficial2509-cipher.github.io/Rohit-Prasad-Portfolio](https://rohitofficial2509-cipher.github.io/Rohit-Prasad-Portfolio/)
 
@@ -10,7 +10,7 @@ This portfolio presents my professional background, work experience, technical s
 
 ## Highlights
 
-- Senior Data Analyst portfolio built with React and Vite
+- Software Developer portfolio built with React and Vite
 - Responsive dashboard-inspired UI
 - Resume download support
 - Real profile image and professional contact links
