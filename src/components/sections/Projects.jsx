@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FiDatabase, FiLayers, FiServer } from "react-icons/fi";
 
 const projects = [
