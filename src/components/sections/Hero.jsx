@@ -9,7 +9,7 @@ const metrics = [
 ];
 
 export default function Hero() {
-  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume_Final.docx`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume.pdf`;
   const profileImageUrl = `${import.meta.env.BASE_URL}rohit-prasad.png`;
 
   return (

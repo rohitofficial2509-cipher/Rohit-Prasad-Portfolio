@@ -15,7 +15,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("hero");
   const [scrolled, setScrolled] = useState(false);
-  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume_Final.docx`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume.pdf`;
 
   useEffect(() => {
     const onScroll = () => {
