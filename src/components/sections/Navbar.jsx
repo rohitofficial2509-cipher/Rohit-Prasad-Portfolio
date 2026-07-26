@@ -19,12 +19,19 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => {
-      setScrolled(window.scrollY > 16);
-      const current = navItems
-        .map(([, id]) => document.getElementById(id))
-        .filter(Boolean)
-        .findLast((section) => section.getBoundingClientRect().top <= 120);
-      if (current) setActive(current.id);
+      try {
+        setScrolled(window.scrollY > 16);
+
+        const current = navItems
+          .map(([, id]) => document.getElementById(id))
+          .filter(Boolean)
+          .reverse()
+          .find((section) => section.getBoundingClientRect().top <= 120);
+
+        if (current) setActive(current.id);
+      } catch {
+        // Keep the navbar from breaking the whole page if a browser API misbehaves.
+      }
     };
 
     onScroll();
