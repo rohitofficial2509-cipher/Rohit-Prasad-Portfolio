@@ -3,32 +3,43 @@ import { FiBriefcase, FiCalendar, FiMapPin } from "react-icons/fi";
 
 const roles = [
   {
-    title: "Data Analyst",
-    company: "Dr. Prasanta Banerji Homeopathic Research Clinic",
-    period: "Apr 2026 - Present",
+    title: "Junior Software Developer",
+    company: "Study Buddy",
+    period: "Jul 2026 - Present",
     location: "Kolkata, India",
     summary:
-      "Supporting data operations and research workflows for a healthcare institution with a 160-year legacy.",
+      "Developing AI-powered software applications, RESTful services, and database-driven solutions.",
     bullets: [
-      "Developed automated Google Apps Script pipelines for data extraction, validation, and accuracy checks.",
-      "Analyze processed data to surface clinic performance and treatment outcome insights.",
-      "Clean, validate, and standardize patient and operational datasets for reporting readiness.",
-      "Support research initiatives through structured data organization and analysis.",
-      "Maintain data integrity practices aligned with healthcare data requirements.",
+      "Develop AI-powered software applications using Python and modern web technologies.",
+      "Design and implement RESTful backend services using Node.js and Express.js.",
+      "Integrate OpenRouter and Model Context Protocol (MCP).",
+      "Develop React.js interfaces and manage PostgreSQL databases.",
+      "Collaborate using Git, GitHub, npm, VS Code, Claude Code and Codex CLI.",
+    ],
+  },
+  {
+    title: "Data Analyst",
+    company: "Dr. Prasanta Banerji Homeopathic Research Clinic",
+    period: "Apr 2026 - Jul 2026",
+    location: "Kolkata, India",
+    summary:
+      "Automated data operations and healthcare analytics workflows.",
+    bullets: [
+      "Automated workflows using Google Apps Script and Google Workspace.",
+      "Built healthcare data pipelines and improved reporting quality.",
+      "Generated analytical reports and improved data quality.",
     ],
   },
   {
     title: "ADM ISMO Analyst Trainee",
     company: "Cognizant",
-    period: "Feb 2026 - Apr 2026",
+    period: "Jan 2026 - Apr 2026",
     location: "India",
     summary:
-      "Worked across application support, service management, and incident resolution for ERP environments.",
+      "Enterprise application support and ITIL-based service management.",
     bullets: [
-      "Provided application support and troubleshooting for ERP systems.",
-      "Monitored system performance and resolved client-reported issues.",
-      "Worked with ITIL processes for incident and service management.",
-      "Collaborated with cross-functional teams to keep operations stable.",
+      "Supported enterprise applications through monitoring and incident resolution.",
+      "Worked with ERP application support and ITIL-based service management.",
     ],
   },
 ];
@@ -39,7 +50,7 @@ export default function Experience() {
       <div className="section-shell">
         <div className="max-w-3xl">
           <div className="section-label">Experience</div>
-          <h2 className="section-title">Work shaped by reliability, service, and clear reporting.</h2>
+          <h2 className="section-title">Professional experience in software, AI, automation, and enterprise support.</h2>
         </div>
 
         <div className="mt-10 grid gap-5">

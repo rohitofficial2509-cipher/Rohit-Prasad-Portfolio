@@ -1,33 +1,32 @@
-import { motion } from "framer-motion";
-import { FiActivity, FiDatabase, FiLayers } from "react-icons/fi";
+import { FiDatabase, FiLayers, FiServer } from "react-icons/fi";
 
 const projects = [
   {
-    icon: FiActivity,
-    title: "Healthcare Data Quality Automation",
-    type: "Professional system",
+    icon: FiDatabase,
+    title: "Patient Registry & Registration Management System",
+    type: "Backend & Database",
     description:
-      "Automated extraction and validation workflows for clinic data using Google Apps Script and Google Workspace.",
-    impact: ["Reduced manual checks", "Improved reliability", "Enabled cleaner analysis"],
-    stack: ["Google Apps Script", "Google Sheets", "Data validation", "Healthcare data"],
+      "Engineered a normalized PostgreSQL schema and designed RESTful APIs for patient registration with input validation and modular architecture.",
+    impact: ["Normalized PostgreSQL Schema", "RESTful Backend Architecture", "Modular Validation"],
+    stack: ["Node.js", "Express.js", "PostgreSQL", "REST APIs"],
   },
   {
     icon: FiLayers,
-    title: "LIFECARE Clinic Appointment System",
-    type: "Full-stack project",
+    title: "LIFECARE Clinic – Healthcare Appointment Management System",
+    type: "Full-stack System",
     description:
-      "A responsive healthcare appointment platform with patient scheduling workflows and database-backed records.",
-    impact: ["React interface", "REST API integration", "PostgreSQL schema"],
-    stack: ["React.js", "Tailwind CSS", "Axios", "REST APIs", "PostgreSQL"],
+      "Developed a responsive React frontend coupled with robust Node/Express backend APIs integrated with PostgreSQL database storage.",
+    impact: ["Responsive React Frontend", "Express API Integration", "PostgreSQL Database"],
+    stack: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
   },
   {
-    icon: FiDatabase,
-    title: "Operational Reporting Foundation",
-    type: "Analytics workflow",
+    icon: FiServer,
+    title: "Healthcare Data Pipeline & Quality Automation",
+    type: "Workflow Automation",
     description:
-      "Standardized patient and operational datasets to support clinic performance and treatment outcome reporting.",
-    impact: ["Cleaned datasets", "Consistent fields", "Reporting-ready data"],
-    stack: ["Data cleaning", "Power BI", "MS Office", "Google Workspace"],
+      "Automated extraction and validation workflows using Google Apps Script and Google Workspace for clinic operations and quality reporting.",
+    impact: ["Automated Workflows", "Pipeline Integrity", "Data Reporting Quality"],
+    stack: ["Google Apps Script", "Google Workspace", "Data Analytics"],
   },
 ];
 
@@ -37,7 +36,7 @@ export default function Projects() {
       <div className="section-shell">
         <div className="max-w-3xl">
           <div className="section-label">Selected Work</div>
-          <h2 className="section-title">Projects that show analysis plus implementation.</h2>
+          <h2 className="section-title">Backend systems, full-stack applications, and workflow automation.</h2>
         </div>
 
         <div className="mt-10 grid lg:grid-cols-3 gap-5">

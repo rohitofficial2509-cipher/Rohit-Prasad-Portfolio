@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { FiAward } from "react-icons/fi";
 
 const certifications = [
-  ["GenAI Powered Data Analytics Job Simulation", "Forage (Tata)"],
-  ["Qlik Sense For Data Science And BI", "Udemy"],
-  ["The Complete Oracle SQL Certification Course", "Udemy"],
-  ["Informatica PowerCenter - Beginner To Expert Level", "Udemy"],
-  ["Software Engineering 101: Plan And Execute Better Software", "Udemy"],
-  ["Pep Supply Chain Stars Awareness Workshop", "PepsiCo India"],
   ["Claude 101", "Anthropic"],
+  ["GenAI Powered Data Analytics Job Simulation", "Tata (Forage)"],
+  ["Software Engineering 101", "Udemy"],
+  ["Oracle SQL Certification", "Udemy"],
+  ["Informatica PowerCenter", "Udemy"],
+  ["Qlik Sense for Data Science & Business Intelligence", "Udemy"],
+  ["PepsiCo Supply Chain Stars Awareness Workshop", "PepsiCo India"],
 ];
 
 export default function Certifications() {
@@ -18,7 +18,7 @@ export default function Certifications() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
           <div>
             <div className="section-label">Certifications</div>
-            <h2 className="section-title">Continuous learning across data, BI, and software.</h2>
+            <h2 className="section-title">Continuous learning across AI, software engineering, and data.</h2>
           </div>
         </div>
 

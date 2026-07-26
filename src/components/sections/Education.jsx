@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 const schools = [
   {
     degree: "Master of Computer Applications",
-    institution: "IIT Patna & IIIT Ranchi",
-    period: "Jan 2026 - Present",
-    detail: "Current",
+    institution: "Indian Institute of Technology Patna & Indian Institute of Information Technology Ranchi",
+    period: "2026 - Present",
+    detail: "Pursuing",
   },
   {
-    degree: "Bachelor of Computer Application",
-    institution: "Saroj Mohan Institute of Technology, Kolkata",
-    period: "Sep 2022 - Jul 2025",
-    detail: "GPA 7.27",
+    degree: "Bachelor of Computer Applications",
+    institution: "Saroj Mohan Institute of Technology",
+    period: "2022 - 2025",
+    detail: "CGPA 7.27/10",
   },
   {
     degree: "Higher Secondary, Commerce with Mathematics",
     institution: "The Bhawanipur Gujarati Education Society School (ISC)",
-    period: "Aug 2021 - Jul 2022",
+    period: "2021 - 2022",
     detail: "72%",
   },
   {
     degree: "Matriculation",
     institution: "National High School (CBSE)",
-    period: "Jul 2019 - Jun 2020",
+    period: "2019 - 2020",
     detail: "85%",
   },
 ];

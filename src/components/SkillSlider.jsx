@@ -27,20 +27,18 @@ const SkillSlider = () => {
   const [skillWidth, setSkillWidth] = useState(130);
 
   const skills = [
+    { name: "Python", icon: FaPython, color: "#3776AB" },
     { name: "React.js", icon: FaReact, color: "#61DAFB" },
     { name: "Node.js", icon: FaNodeJs, color: "#339933" },
-    { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
-    { name: "Python", icon: FaPython, color: "#3776AB" },
     { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
-    { name: "Power BI", icon: SiPowerbi, color: "#F2C811" },
+    { name: "OpenRouter & MCP", icon: FaBrain, color: "#a855f7" },
+    { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
+    { name: "REST APIs", icon: FaDatabase, color: "#336791" },
     { name: "Google Apps Script", icon: SiGoogle, color: "#4285F4" },
-    { name: "Java", icon: FaJava, color: "#ED8B00" },
-    { name: "SQL & DBs", icon: FaDatabase, color: "#336791" },
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-    { name: "HTML5", icon: FaHtml5, color: "#E34F26" },
-    { name: "Git", icon: FaGit, color: "#F05032" },
-    { name: "ChatGPT & AI", icon: SiOpenai, color: "#10a37f" },
-    { name: "Claude & Gemini", icon: FaBrain, color: "#a855f7" },
+    { name: "Java", icon: FaJava, color: "#ED8B00" },
+    { name: "Git & GitHub", icon: FaGit, color: "#F05032" },
+    { name: "Claude & LLMs", icon: SiOpenai, color: "#10a37f" },
   ];
 
   // Responsive skill width calculation

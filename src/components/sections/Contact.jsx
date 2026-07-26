@@ -43,10 +43,9 @@ export default function Contact() {
           <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8 lg:gap-12">
             <div>
               <div className="section-label">Contact</div>
-              <h2 className="section-title">Let us talk data systems, analytics, or automation.</h2>
+              <h2 className="section-title">Let us talk software development, AI applications, or automation.</h2>
               <p className="muted-copy mt-5">
-                I am open to data analyst roles, healthcare analytics work, automation-heavy reporting
-                projects, and full-stack tools that improve operational workflows.
+                I am open to Software Developer roles, AI integration projects, backend engineering, full-stack applications, and automation systems.
               </p>
               <a className="btn-primary mt-7" href="mailto:rohitofficial2509@gmail.com">
                 <FiMail aria-hidden="true" /> Send email

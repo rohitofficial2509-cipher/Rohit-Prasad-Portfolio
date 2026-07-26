@@ -2,24 +2,28 @@ import { motion } from "framer-motion";
 
 const groups = [
   {
-    title: "Analytics & Automation",
-    skills: ["Google Apps Script", "Google Workspace", "Power BI", "MS Office", "Data cleaning", "Data validation"],
+    title: "Programming",
+    skills: ["Python", "Java", "JavaScript", "SQL"],
   },
   {
-    title: "Engineering",
-    skills: ["JavaScript", "Python", "Java", "Node.js", "REST APIs", "Axios"],
+    title: "AI & Integrations",
+    skills: ["OpenRouter", "MCP (Model Context Protocol)", "LLM Integration", "Prompt Engineering"],
   },
   {
-    title: "Web & Database",
-    skills: ["React.js", "Tailwind CSS", "HTML", "CSS", "PostgreSQL", "PgAdmin"],
+    title: "Frontend Development",
+    skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
   },
   {
-    title: "Service Management",
-    skills: ["Application support", "Incident management", "ITIL processes", "Troubleshooting", "System monitoring"],
+    title: "Backend & Databases",
+    skills: ["Node.js", "Express.js", "REST APIs", "PostgreSQL", "MySQL", "Postico 2"],
   },
   {
-    title: "AI Tooling",
-    skills: ["ChatGPT", "Claude", "Google Gemini", "DeepSeek", "OpenAI Codex"],
+    title: "Developer Tools",
+    skills: ["Git", "GitHub", "VS Code", "Claude Code", "Codex CLI", "npm"],
+  },
+  {
+    title: "Automation & Analytics",
+    skills: ["Google Apps Script", "Google Workspace", "Power BI", "Microsoft Excel"],
   },
 ];
 
@@ -30,10 +34,10 @@ export default function Skills() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
           <div className="max-w-3xl">
             <div className="section-label">Capabilities</div>
-            <h2 className="section-title">Skills mapped to the work I actually do.</h2>
+            <h2 className="section-title">Core Technical Skills & Modern Developer Toolkit.</h2>
           </div>
           <p className="muted-copy max-w-md">
-            A mix of analytics, automation, support, and full-stack development lets me solve the whole workflow.
+            Full-stack engineering, AI/MCP integrations, database architecture, and enterprise workflow automation.
           </p>
         </div>
 

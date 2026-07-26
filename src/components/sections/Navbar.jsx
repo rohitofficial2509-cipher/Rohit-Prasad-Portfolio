@@ -15,7 +15,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("hero");
   const [scrolled, setScrolled] = useState(false);
-  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Rohit_Prasad_Resume_Final.docx`;
 
   useEffect(() => {
     const onScroll = () => {
@@ -47,7 +47,7 @@ export default function Navbar() {
           aria-label="Go to home"
         >
           <span className="block text-lg font-black text-white">Rohit Prasad</span>
-          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Data Analyst</span>
+          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Software Developer</span>
         </button>
 
         <div className="hidden lg:flex items-center gap-1">
