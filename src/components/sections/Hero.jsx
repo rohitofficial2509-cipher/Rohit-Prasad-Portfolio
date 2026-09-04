@@ -71,7 +71,7 @@ export default function Hero() {
                 className="aspect-[4/4.55] w-full object-cover object-center"
               />
               <div className="absolute left-4 right-4 bottom-4 panel bg-slate-950/86 p-4">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Current focus</p>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Recent focus</p>
                 <p className="mt-2 text-sm text-slate-200">
                   Building data-driven solutions with SQL, Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
                 </p>

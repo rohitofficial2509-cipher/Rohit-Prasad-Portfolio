@@ -5,22 +5,22 @@ const roles = [
   {
     title: "Junior Software Developer",
     company: "Study Buddy",
-    period: "Jul 2026 - Present",
+    period: "Jul 2026 - Aug 2026",
     location: "Kolkata, India",
     summary:
-      "Developing AI-powered software applications and database-driven solutions.",
+      "Developed AI-powered software applications and database-driven solutions.",
     bullets: [
-      "Develop AI-powered software applications using Python and modern web technologies.",
-      "Design and implement RESTful backend services using Node.js and Express.js.",
-      "Integrate OpenRouter and Model Context Protocol (MCP).",
-      "Develop React.js interfaces and manage PostgreSQL databases.",
-      "Collaborate using Git, GitHub, npm, VS Code, Claude Code, and Codex CLI.",
+      "Developed AI-powered software applications using Python and modern web technologies.",
+      "Designed and implemented RESTful backend services using Node.js and Express.js.",
+      "Integrated OpenRouter and Model Context Protocol (MCP).",
+      "Developed React.js interfaces and managed PostgreSQL databases.",
+      "Collaborated using Git, GitHub, npm, VS Code, Claude Code, and Codex CLI.",
     ],
   },
   {
     title: "Data Analyst",
     company: "Dr. Prasanta Banerji Homeopathic Research Clinic",
-    period: "Apr 2026 - Jul 2026",
+    period: "May 2026 - Jun 2026",
     location: "Kolkata, India",
     summary:
       "Automated workflows and improved healthcare reporting quality.",

@@ -4,8 +4,8 @@ const schools = [
   {
     degree: "Master of Computer Applications",
     institution: "Indian Institute of Technology Patna & Indian Institute of Information Technology Ranchi",
-    period: "2026 - Present",
-    detail: "Pursuing",
+    period: "2026 - Dec 2027",
+    detail: "Expected Dec 2027",
   },
   {
     degree: "Bachelor of Computer Applications",
