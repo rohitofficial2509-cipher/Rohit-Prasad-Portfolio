@@ -25,7 +25,7 @@ export default function Hero() {
             Rohit Prasad builds software, automation & AI-powered applications.
           </h1>
           <p className="muted-copy mt-6 text-base sm:text-lg max-w-2xl">
-            Software Developer in Kolkata experienced in enterprise application support, healthcare data automation, 
+            Software Developer in Kolkata with experience in enterprise application support, healthcare data automation,
             and AI-powered software development using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
           </p>
 
@@ -33,7 +33,7 @@ export default function Hero() {
             <a className="btn-primary" href="#projects">
               View case work <FiArrowRight aria-hidden="true" />
             </a>
-            <a className="btn-secondary" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
+            <a className="btn-secondary" href={resumeUrl} download="Rohit_Prasad_Data_Analyst_Resume.pdf">
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>

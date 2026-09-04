@@ -13,18 +13,6 @@ const schools = [
     period: "2022 - 2025",
     detail: "CGPA 7.27/10",
   },
-  {
-    degree: "Higher Secondary, Commerce with Mathematics",
-    institution: "The Bhawanipur Gujarati Education Society School (ISC)",
-    period: "2021 - 2022",
-    detail: "72%",
-  },
-  {
-    degree: "Matriculation",
-    institution: "National High School (CBSE)",
-    period: "2019 - 2020",
-    detail: "85%",
-  },
 ];
 
 export default function Education() {

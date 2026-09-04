@@ -13,7 +13,7 @@ const projects = [
   },
   {
     icon: FiLayers,
-    title: "LIFECARE Clinic – Healthcare Appointment Management System",
+    title: "LIFECARE Clinic - Healthcare Appointment Management System",
     type: "Full-stack System",
     description:
       "Developed a responsive React frontend coupled with robust Node/Express backend APIs integrated with PostgreSQL database storage.",

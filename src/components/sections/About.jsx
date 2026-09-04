@@ -48,8 +48,8 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="muted-copy text-lg">
-              Software Developer with professional experience in enterprise application support, healthcare data automation, 
-              and AI-powered software development. Currently developing software using Python, React.js, Node.js, PostgreSQL, OpenRouter and MCP.
+              Software Developer with professional experience in enterprise application support, healthcare data automation,
+              and AI-powered software development. Currently developing software using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
             </p>
             <div className="panel p-5 sm:p-6">
               <h3 className="text-lg font-black text-white">What I bring</h3>

@@ -73,7 +73,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:flex">
-          <a className="btn-secondary text-sm" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
+          <a className="btn-secondary text-sm" href={resumeUrl} download="Rohit_Prasad_Data_Analyst_Resume.pdf">
             <FiDownload aria-hidden="true" /> Resume
           </a>
         </div>
@@ -99,11 +99,11 @@ export default function Navbar() {
                 className={`rounded-lg px-4 py-3 text-left font-bold ${
                   active === id ? "bg-sky-400/12 text-sky-200" : "text-slate-300"
                 }`}
-              >
-                {label}
-              </button>
-            ))}
-            <a className="btn-primary mt-2" href={resumeUrl} download="Rohit_Prasad_Resume_Final.pdf">
+            >
+              {label}
+            </button>
+          ))}
+            <a className="btn-primary mt-2" href={resumeUrl} download="Rohit_Prasad_Data_Analyst_Resume.pdf">
               <FiDownload aria-hidden="true" /> Download resume
             </a>
           </div>
