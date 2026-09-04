@@ -50,7 +50,7 @@ export default function Experience() {
       <div className="section-shell">
         <div className="max-w-3xl">
           <div className="section-label">Experience</div>
-          <h2 className="section-title">Professional experience in software development, data analysis, automation, and enterprise support.</h2>
+          <h2 className="section-title">Professional experience in data analysis, automation, software development, and enterprise support.</h2>
         </div>
 
         <div className="mt-10 grid gap-5">

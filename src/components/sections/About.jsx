@@ -4,13 +4,13 @@ import { FiCheckCircle, FiCpu, FiServer, FiZap } from "react-icons/fi";
 const strengths = [
   {
     icon: FiCpu,
-    title: "AI & Application Development",
-    copy: "Developing intelligent software using Python, React.js, Node.js, OpenRouter, and MCP.",
+    title: "Data Analysis & Automation",
+    copy: "Turning raw data into reports, dashboards, and workflow improvements using SQL, Python, and Google Workspace.",
   },
   {
     icon: FiServer,
-    title: "Backend & REST APIs",
-    copy: "Designing modular Express.js backends, normalized PostgreSQL schemas, and robust API endpoints.",
+    title: "Backend & Data Apps",
+    copy: "Designing modular Express.js backends, normalized PostgreSQL schemas, and data-driven APIs.",
   },
   {
     icon: FiZap,
@@ -20,9 +20,9 @@ const strengths = [
 ];
 
 const outcomes = [
-  "Currently building AI-powered software applications at Study Buddy using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.",
-  "Designed RESTful APIs and a normalized PostgreSQL schema for patient registration and clinic management systems.",
-  "Automated healthcare workflows and reporting with Google Apps Script and Google Workspace.",
+  "Hands-on experience in data pipelines, data cleaning, reporting, dashboard development, and workflow automation.",
+  "Built healthcare data management systems with Node.js, Express.js, and PostgreSQL.",
+  "Strong software engineering foundation for building data-driven applications and end-to-end automations.",
 ];
 
 export default function About() {
@@ -37,7 +37,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <div className="section-label">About</div>
-            <h2 className="section-title">A Software Developer bridging AI, backend engineering, and data automation.</h2>
+            <h2 className="section-title">A Data Analyst bridging analytics, automation, backend engineering, and AI.</h2>
           </motion.div>
 
           <motion.div
@@ -48,9 +48,10 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="muted-copy text-lg">
-              Software Developer with professional experience in enterprise application support, healthcare data automation,
-              and AI-powered software development. Experienced in backend development, RESTful APIs, workflow automation,
-              and database-driven applications.
+              I am a Data Analyst with hands-on experience in data pipelines, data cleaning, reporting, dashboard
+              development, and workflow automation.
+              I also have a strong software engineering and backend foundation, allowing me to build data-driven
+              applications and automate end-to-end workflows.
             </p>
             <div className="panel p-5 sm:p-6">
               <h3 className="text-lg font-black text-white">What I bring</h3>

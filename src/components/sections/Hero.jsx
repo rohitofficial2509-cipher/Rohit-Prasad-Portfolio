@@ -3,8 +3,8 @@ import { FiArrowRight, FiDownload, FiMail, FiMapPin } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 
 const metrics = [
-  { value: "AI + Backend", label: "Python, Node.js, React, PostgreSQL" },
-  { value: "3 Roles", label: "Dev, Data Analyst, Support" },
+  { value: "Data Analyst", label: "SQL, Python, Reporting, Automation" },
+  { value: "3 Roles", label: "Analytics, Dev, Support" },
   { value: "MCA", label: "IIT Patna & IIIT Ranchi" },
 ];
 
@@ -20,13 +20,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55 }}
         >
-          <div className="section-label">Software Developer</div>
+          <div className="section-label">Data Analyst</div>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-7xl font-black leading-[0.98] tracking-normal">
-            Rohit Prasad builds software, automation, and AI-powered applications.
+            Hi, I&apos;m Rohit Prasad. I build data pipelines, dashboards, automation, and AI-powered applications.
           </h1>
           <p className="muted-copy mt-6 text-base sm:text-lg max-w-2xl">
-            Software Developer with experience in enterprise application support, healthcare data automation, and
-            AI-powered software development using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
+            Data Analyst with hands-on experience in data pipelines, data cleaning, reporting, dashboard development, and
+            workflow automation. I also bring a strong backend foundation for building data-driven applications.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -73,7 +73,7 @@ export default function Hero() {
               <div className="absolute left-4 right-4 bottom-4 panel bg-slate-950/86 p-4">
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Current focus</p>
                 <p className="mt-2 text-sm text-slate-200">
-                  Building AI-powered applications at Study Buddy with Python, Node.js, React.js, PostgreSQL, OpenRouter, and MCP.
+                  Building data-driven solutions with SQL, Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
                 </p>
               </div>
             </div>

@@ -54,7 +54,7 @@ export default function Navbar() {
           aria-label="Go to home"
         >
           <span className="block text-lg font-black text-white">Rohit Prasad</span>
-          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Software Developer</span>
+          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-sky-300">Data Analyst</span>
         </button>
 
         <div className="hidden lg:flex items-center gap-1">

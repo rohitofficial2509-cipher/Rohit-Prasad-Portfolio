@@ -2,28 +2,24 @@ import { motion } from "framer-motion";
 
 const groups = [
   {
-    title: "Programming",
-    skills: ["Python", "Java", "JavaScript", "SQL"],
+    title: "Data & Analytics",
+    skills: ["SQL", "Python", "Excel / Google Sheets", "Data Cleaning & Validation", "Data Visualization", "Dashboard Development", "Automated Reporting"],
   },
   {
-    title: "AI & Integrations",
-    skills: ["OpenRouter", "MCP (Model Context Protocol)", "LLM Integration", "Prompt Engineering"],
+    title: "Databases",
+    skills: ["PostgreSQL", "MySQL"],
   },
   {
-    title: "Frontend Development",
+    title: "Programming & Backend",
+    skills: ["Python", "JavaScript", "Node.js", "Express.js", "REST APIs"],
+  },
+  {
+    title: "Frontend",
     skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
   },
   {
-    title: "Backend & Databases",
-    skills: ["Node.js", "Express.js", "REST APIs", "PostgreSQL", "MySQL", "Postico 2"],
-  },
-  {
-    title: "Developer Tools",
-    skills: ["Git", "GitHub", "VS Code", "Claude Code", "Codex CLI", "npm"],
-  },
-  {
-    title: "Automation & Analytics",
-    skills: ["Google Apps Script", "Google Workspace", "Power BI", "Microsoft Excel"],
+    title: "Automation & AI",
+    skills: ["Google Apps Script", "Google Workspace", "Web Scraping", "Data Pipelines", "OpenRouter", "Model Context Protocol (MCP)", "LLM Integration", "Prompt Engineering"],
   },
 ];
 
@@ -34,10 +30,10 @@ export default function Skills() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
           <div className="max-w-3xl">
             <div className="section-label">Capabilities</div>
-            <h2 className="section-title">Core technical skills and modern developer toolkit.</h2>
+            <h2 className="section-title">Core technical skills across analytics, automation, and backend development.</h2>
           </div>
           <p className="muted-copy max-w-md">
-            Programming, AI integrations, backend development, database architecture, and enterprise workflow automation.
+            SQL, Python, dashboards, automation, backend APIs, and AI-assisted workflow design.
           </p>
         </div>
 

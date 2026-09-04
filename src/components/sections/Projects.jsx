@@ -5,9 +5,9 @@ const projects = [
   {
     icon: FiDatabase,
     title: "Patient Registry & Registration Management System",
-    type: "Backend & Database",
+    type: "Healthcare Data System",
     description:
-      "Engineered a normalized PostgreSQL schema and designed RESTful APIs for patient registration.",
+      "A healthcare data management system built with Node.js, Express.js, and PostgreSQL for efficient querying and reporting.",
     impact: ["Normalized PostgreSQL Schema", "RESTful Backend Architecture", "Modular Validation"],
     stack: ["Node.js", "Express.js", "PostgreSQL", "REST APIs"],
   },
@@ -16,18 +16,18 @@ const projects = [
     title: "LIFECARE Clinic - Healthcare Appointment Management System",
     type: "Full-stack System",
     description:
-      "Developed a responsive React frontend and backend APIs integrated with PostgreSQL.",
-    impact: ["Responsive React Frontend", "Express API Integration", "PostgreSQL Database"],
+      "A real-time healthcare appointment management system built with React.js, Node.js, Express.js, and PostgreSQL.",
+    impact: ["Real-time Scheduling", "React Frontend", "PostgreSQL Database"],
     stack: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
   },
   {
     icon: FiServer,
-    title: "Healthcare Data Pipeline & Quality Automation",
-    type: "Workflow Automation",
+    title: "Personal Portfolio",
+    type: "Portfolio Website",
     description:
-      "Automated healthcare workflows using Google Apps Script and Google Workspace for clinic operations and reporting.",
-    impact: ["Automated Workflows", "Pipeline Integrity", "Data Reporting Quality"],
-    stack: ["Google Apps Script", "Google Workspace", "Data Analytics"],
+      "My personal portfolio showcasing my experience, projects, technical skills, certifications, and contact details.",
+    impact: ["Portfolio Design", "Resume Showcase", "Recruiter Friendly"],
+    stack: ["React.js", "Vite", "Tailwind CSS"],
   },
 ];
 
@@ -37,7 +37,7 @@ export default function Projects() {
       <div className="section-shell">
         <div className="max-w-3xl">
           <div className="section-label">Selected Work</div>
-          <h2 className="section-title">Backend systems, clinic software, and workflow automation.</h2>
+          <h2 className="section-title">Healthcare data systems, portfolio work, and automation-focused applications.</h2>
         </div>
 
         <div className="mt-10 grid lg:grid-cols-3 gap-5">
