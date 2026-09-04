@@ -34,10 +34,10 @@ export default function Skills() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
           <div className="max-w-3xl">
             <div className="section-label">Capabilities</div>
-            <h2 className="section-title">Core Technical Skills & Modern Developer Toolkit.</h2>
+            <h2 className="section-title">Core technical skills and modern developer toolkit.</h2>
           </div>
           <p className="muted-copy max-w-md">
-            Full-stack engineering, AI/MCP integrations, database architecture, and enterprise workflow automation.
+            Programming, AI integrations, backend development, database architecture, and enterprise workflow automation.
           </p>
         </div>
 

@@ -8,13 +8,13 @@ const roles = [
     period: "Jul 2026 - Present",
     location: "Kolkata, India",
     summary:
-      "Developing AI-powered software applications, RESTful services, and database-driven solutions.",
+      "Developing AI-powered software applications and database-driven solutions.",
     bullets: [
       "Develop AI-powered software applications using Python and modern web technologies.",
       "Design and implement RESTful backend services using Node.js and Express.js.",
       "Integrate OpenRouter and Model Context Protocol (MCP).",
       "Develop React.js interfaces and manage PostgreSQL databases.",
-      "Collaborate using Git, GitHub, npm, VS Code, Claude Code and Codex CLI.",
+      "Collaborate using Git, GitHub, npm, VS Code, Claude Code, and Codex CLI.",
     ],
   },
   {
@@ -23,7 +23,7 @@ const roles = [
     period: "Apr 2026 - Jul 2026",
     location: "Kolkata, India",
     summary:
-      "Automated data operations and healthcare analytics workflows.",
+      "Automated workflows and improved healthcare reporting quality.",
     bullets: [
       "Automated workflows using Google Apps Script and Google Workspace.",
       "Built healthcare data pipelines and improved reporting quality.",
@@ -36,7 +36,7 @@ const roles = [
     period: "Jan 2026 - Apr 2026",
     location: "India",
     summary:
-      "Enterprise application support and ITIL-based service management.",
+      "Supported enterprise applications through monitoring, incident resolution, and ITIL-based service management.",
     bullets: [
       "Supported enterprise applications through monitoring and incident resolution.",
       "Worked with ERP application support and ITIL-based service management.",
@@ -50,7 +50,7 @@ export default function Experience() {
       <div className="section-shell">
         <div className="max-w-3xl">
           <div className="section-label">Experience</div>
-          <h2 className="section-title">Professional experience in software, AI, automation, and enterprise support.</h2>
+          <h2 className="section-title">Professional experience in software development, data analysis, automation, and enterprise support.</h2>
         </div>
 
         <div className="mt-10 grid gap-5">

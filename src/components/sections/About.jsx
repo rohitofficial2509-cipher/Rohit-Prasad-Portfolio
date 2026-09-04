@@ -4,8 +4,8 @@ import { FiCheckCircle, FiCpu, FiServer, FiZap } from "react-icons/fi";
 const strengths = [
   {
     icon: FiCpu,
-    title: "AI & Modern Web Apps",
-    copy: "Developing intelligent software using Python, React.js, Node.js, OpenRouter, and Model Context Protocol (MCP).",
+    title: "AI & Application Development",
+    copy: "Developing intelligent software using Python, React.js, Node.js, OpenRouter, and MCP.",
   },
   {
     icon: FiServer,
@@ -20,9 +20,9 @@ const strengths = [
 ];
 
 const outcomes = [
-  "Currently building AI-powered software applications at Study Buddy integrating OpenRouter & MCP.",
-  "Engineered normalized PostgreSQL schema and RESTful APIs for patient registration and appointment management systems.",
-  "Automated healthcare workflows and data pipelines using Google Apps Script at Dr. Prasanta Banerji Clinic.",
+  "Currently building AI-powered software applications at Study Buddy using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.",
+  "Designed RESTful APIs and a normalized PostgreSQL schema for patient registration and clinic management systems.",
+  "Automated healthcare workflows and reporting with Google Apps Script and Google Workspace.",
 ];
 
 export default function About() {
@@ -37,7 +37,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <div className="section-label">About</div>
-            <h2 className="section-title">A Software Developer bridging AI, full-stack engineering, and data automation.</h2>
+            <h2 className="section-title">A Software Developer bridging AI, backend engineering, and data automation.</h2>
           </motion.div>
 
           <motion.div
@@ -49,7 +49,8 @@ export default function About() {
           >
             <p className="muted-copy text-lg">
               Software Developer with professional experience in enterprise application support, healthcare data automation,
-              and AI-powered software development. Currently developing software using Python, React.js, Node.js, PostgreSQL, OpenRouter, and MCP.
+              and AI-powered software development. Experienced in backend development, RESTful APIs, workflow automation,
+              and database-driven applications.
             </p>
             <div className="panel p-5 sm:p-6">
               <h3 className="text-lg font-black text-white">What I bring</h3>

@@ -4,10 +4,10 @@ import { FiAward } from "react-icons/fi";
 const certifications = [
   ["Claude 101", "Anthropic"],
   ["GenAI Powered Data Analytics Job Simulation", "Tata (Forage)"],
-  ["Software Engineering 101", "Udemy"],
-  ["Oracle SQL Certification", "Udemy"],
-  ["Informatica PowerCenter", "Udemy"],
-  ["Qlik Sense for Data Science & Business Intelligence", "Udemy"],
+  ["Software Engineering 101", "Listed on resume"],
+  ["Oracle SQL Certification", "Listed on resume"],
+  ["Informatica PowerCenter", "Listed on resume"],
+  ["Qlik Sense for Data Science & Business Intelligence", "Listed on resume"],
   ["PepsiCo Supply Chain Stars Awareness Workshop", "PepsiCo India"],
 ];
 
@@ -18,7 +18,7 @@ export default function Certifications() {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
           <div>
             <div className="section-label">Certifications</div>
-            <h2 className="section-title">Continuous learning across AI, software engineering, and data.</h2>
+            <h2 className="section-title">Continuous learning across AI, software engineering, and data analytics.</h2>
           </div>
         </div>
 
