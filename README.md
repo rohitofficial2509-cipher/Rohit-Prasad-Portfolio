@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Rohit Prasad**, a Software Developer focused on AI-powered applications, full-stack development, automation, and backend systems.
 
-Live site: [rohitofficial2509-cipher.github.io/Rohit-Prasad-Portfolio](https://rohitofficial2509-cipher.github.io/Rohit-Prasad-Portfolio/)
+Live site: add your Vercel production URL here.
 
 ## About
 
@@ -15,8 +15,7 @@ This portfolio presents my professional background, work experience, technical s
 - Resume download support
 - Real profile image and professional contact links
 - Sections for experience, skills, projects, education, certifications, and contact
-- GitHub Pages deployment workflow
-- Vercel-friendly build setup
+- Vercel deployment setup
 
 ## Tech Stack
 
@@ -25,8 +24,6 @@ This portfolio presents my professional background, work experience, technical s
 - Tailwind CSS
 - Framer Motion
 - React Icons
-- GitHub Actions
-- GitHub Pages
 - Vercel
 
 ## Local Development
@@ -56,34 +53,20 @@ npm run preview
 
 ## Deployment
 
-This repository supports two deployment targets:
+Deploy this repository on Vercel:
 
-- GitHub Pages: on every push to `main`, GitHub Actions builds the Vite app and publishes the `dist` output to the `gh-pages` branch.
-- Vercel: connect the GitHub repository in Vercel and deploy from `main` with the Vite preset.
-
-To enable GitHub Pages:
-
-1. Open repository **Settings**
-2. Go to **Pages**
-3. Choose **Deploy from a branch**
-4. Select branch: `gh-pages`
-5. Select folder: `/ (root)`
-6. Save
-
-To enable Vercel:
-
-1. Open the Vercel dashboard
-2. Select **Add New -> Project**
-3. Import this GitHub repository
-4. Keep the framework preset as **Vite**
-5. Use `npm run build` as the build command
-6. Use `dist` as the output directory
-7. Deploy
+1. Open the Vercel dashboard.
+2. Import this GitHub repository.
+3. Keep the framework preset as `Vite`.
+4. Use `npm run build` as the build command.
+5. Use `dist` as the output directory.
+6. Set the production branch to `main`.
+7. Deploy.
 
 Notes:
 
-- `vite.config.js` switches the base path automatically for GitHub Pages and Vercel.
-- If you use a custom domain, update it separately in the GitHub Pages or Vercel project settings.
+- `vite.config.js` is already set up for Vercel and local development.
+- If you use a custom domain, update it in the Vercel project settings.
 
 ## Contact
 
